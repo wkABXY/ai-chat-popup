@@ -1,48 +1,36 @@
-一个轻量级的悬浮式 AI 聊天窗口组件实现模板，支持 GPT-4 及其他模型，适用于网页端。
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## 功能特性
+## Getting Started
 
-✅ **悬浮式聊天窗口** - 点击按钮即可打开 AI 聊天窗口，在页面右下角弹出。
+First, run the development server:
 
-✅ **支持流式响应** - 采用流式数据处理，增强用户体验。
-
-✅ **多种 AI 模型** - 可选择 `gpt-3.5-turbo`、`gpt-4o` 等模型。
-
-✅ **自动滚动** - 消息输入后，聊天窗口自动滚动到底部。
-
-✅ **清空对话** - 一键清除聊天记录，开启新会话。
-
-## 安装与使用
-
-### 1. 克隆项目
-
-
-### 2. 安装依赖
-```sh
-pnpm install  # 或 npm install / yarn install
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-### 3. 运行开发环境
-```sh
-pnpm dev  # 或 npm run dev / yarn dev
-```
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-### 4. 集成到你的项目
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-在你的 React 项目中，导入并使用组件：
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-```tsx
-import AIChatWidget from "@/components/AIChatWidget";
+## Learn More
 
-function App() {
-  return (
-    <div>
-      <AIChatWidget />
-    </div>
-  );
-}
+To learn more about Next.js, take a look at the following resources:
 
-export default App;
-```
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
